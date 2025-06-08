@@ -1,6 +1,5 @@
 # TFM
-This project tackles the classification of dermoscopic images from the **ISIC 2018 Challenge (Task 3)** using deep learning. It combines PyTorch and TensorFlow pipelines, with CNN architectures, K-Fold Cross-Validation, class balancing, ensemble learning, and comprehensive visual analysis.
-
+This project tackles the classification of dermoscopic images from the **ISIC 2018 Challenge (Task 3)** using deep learning.
 ## 🎯 Objective
 
 Classify dermoscopic images into the following **7 diagnostic categories**:
