@@ -12,16 +12,3 @@ Classify dermoscopic images into the following **7 diagnostic categories**:
 5. Benign keratosis  
 6. Dermatofibroma  
 7. Vascular lesion
-
-## Data Distribution
-
-train_val_full/
-├── class_0/
-│   ├── image1.jpg
-│   ├── image2.jpg
-│   └── ...
-├── class_1/
-│   ├── image1.jpg
-│   └── ...
-├── ...
-└── class_6/
