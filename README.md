@@ -1,14 +1,12 @@
-# TFM
-This project tackles the classification of dermoscopic images from the **ISIC 2018 Challenge (Task 3)** using deep learning.
+# TFM: Skin Lesion Classification with Machine Learning
 
-## Objective
+This repository contains the code and results for the automated classification of skin lesions from dermoscopic images using deep learning models and few-shot learning (FSL) methods.
 
-Classify dermoscopic images into the following **7 diagnostic categories**:
+## Description
 
-1. Melanoma  
-2. Melanocytic nevus  
-3. Basal cell carcinoma  
-4. Actinic keratosis / Bowen’s disease  
-5. Benign keratosis  
-6. Dermatofibroma  
-7. Vascular lesion
+This project evaluates different Convolutional Neural Network (CNN) and FSL approaches to classify skin lesions. The goal is to address challenges like **class imbalance** and **limited data availability**.
+
+### Objectives
+- Compare traditional CNN architectures like Simple CNN, Inception v3, and EfficientNet-B3.
+- Apply FSL techniques with Prototypical Networks.
+- Improve the detection of underrepresented classes like dermatofibromas (DF) and vascular lesions (VASC).
