@@ -25,6 +25,7 @@ cd <your-repo>
 ````
 
 2. **Set up the environment**
+
 The project comes with a requirements.txt file that includes all Python libraries and their versions used during development.
 Create and activate a virtual environment, then install everything with
 ```bash
@@ -38,13 +39,15 @@ jupyter notebook TFM.ipynb
 ```
 
 4. **Configure dataset paths**
+   
 Before running all cells, update the dataset paths inside the notebook to match where your dermoscopic images and labels are stored locally.
 
-5. **Execute cells**
+6. **Execute cells**
+
 Run the notebook cells in order to:
 
-Load and preprocess the dataset
+- Load and preprocess the dataset
 
-Train CNN and/or FSL models
+- Train CNN and/or FSL models
 
-Evaluate performance and visualize results
+- Evaluate performance and visualize results
