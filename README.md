@@ -16,14 +16,35 @@ This project compares traditional CNN architectures (Simple CNN, InceptionV3, Ef
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. **Clone the repository**
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
+````
+
+2. **Set up the environment**
+The project comes with a requirements.txt file that includes all Python libraries and their versions used during development.
+Create and activate a virtual environment, then install everything with
+```bash
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
+3. **Run the notebook**
+```bash
 jupyter notebook TFM.ipynb
+```
 
+4. **Configure dataset paths**
+Before running all cells, update the dataset paths inside the notebook to match where your dermoscopic images and labels are stored locally.
+
+5. **Execute cells**
+Run the notebook cells in order to:
+
+  5.1. Load and preprocess the dataset
+
+  5.2. Train CNN and/or FSL models
+
+  5.3. Evaluate performance and visualize results
