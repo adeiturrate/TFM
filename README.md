@@ -42,7 +42,7 @@ jupyter notebook TFM.ipynb
    
 Before running all cells, update the dataset paths inside the notebook to match where your dermoscopic images and labels are stored locally.
 
-6. **Execute cells**
+5. **Execute cells**
 
 Run the notebook cells in order to:
 
