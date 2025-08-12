@@ -43,8 +43,8 @@ Before running all cells, update the dataset paths inside the notebook to match 
 5. **Execute cells**
 Run the notebook cells in order to:
 
-  5.1. Load and preprocess the dataset
+Load and preprocess the dataset
 
-  5.2. Train CNN and/or FSL models
+Train CNN and/or FSL models
 
-  5.3. Evaluate performance and visualize results
+Evaluate performance and visualize results
