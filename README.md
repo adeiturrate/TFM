@@ -1,12 +1,17 @@
 # TFM: Skin Lesion Classification with Machine Learning
 
-This repository contains the code and results for the automated classification of skin lesions from dermoscopic images using deep learning models and few-shot learning (FSL) methods.
+Automated classification of skin lesions from dermoscopic images using **Convolutional Neural Networks (CNNs)** and **Few-Shot Learning (FSL)**.
 
-## Description
+> **Goal:** Address class imbalance and limited data availability, with a focus on improving detection of underrepresented classes such as **DF** (dermatofibroma) and **VASC** (vascular lesions).
 
-This project evaluates different Convolutional Neural Network (CNN) and FSL approaches to classify skin lesions. The goal is to address challenges like **class imbalance** and **limited data availability**.
+---
 
-### Objectives
-- Compare traditional CNN architectures like Simple CNN, Inception v3, and EfficientNet-B3.
-- Apply FSL techniques with Prototypical Networks.
-- Improve the detection of underrepresented classes like dermatofibromas (DF) and vascular lesions (VASC).
+## Overview
+This project compares traditional CNN architectures (Simple CNN, InceptionV3, EfficientNet-B3) and a FSL approach using **Prototypical Networks** for multiclass skin lesion classification.
+
+- **CNN Models:** Simple CNN, InceptionV3, EfficientNet-B3  
+- **FSL Approach:** Prototypical Networks (episodic training)  
+- **Metrics:** accuracy, balanced accuracy, macro/micro F1-score, class-wise AUC  
+- **Techniques:** rescaling, normalization, data augmentation, class-weighted sampling
+
+---
