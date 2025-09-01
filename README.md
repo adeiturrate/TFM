@@ -62,7 +62,7 @@ ISIC2018/
 │   ├── AKIEC/
 │   ├── BCC/
 │   └── ...
-├── val_train/         # (optional) union of train + val for final model retraining
+├── val_train/         # union of train + val
 │   ├── AKIEC/
 │   ├── BCC/
 │   └── ...
