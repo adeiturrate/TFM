@@ -66,7 +66,7 @@ ISIC2018/
 │   ├── AKIEC/
 │   ├── BCC/
 │   └── ...
-└── train.csv # annotations in CSV format
+└── train.csv          # annotations in CSV format
 ├── val.csv
 ├── test.csv
 ```
