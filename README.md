@@ -44,6 +44,7 @@ Before running all cells, update the dataset paths inside the notebook to match 
 
 To properly train and evaluate the models, the dataset must follow the folder and annotation structure from the ISIC 2018 challenge:
 
+```
 ISIC2018/
 ├── train/             # training images
 │   ├── AKIEC/
@@ -68,6 +69,7 @@ ISIC2018/
 └── train.csv # annotations in CSV format
 ├── val.csv
 ├── test.csv
+```
 
 5. **Execute cells**
 
